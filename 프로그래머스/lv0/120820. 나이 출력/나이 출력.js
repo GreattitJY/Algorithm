@@ -1,4 +1,3 @@
 function solution(age) {
-    var answer = 2023-(age);
-    return answer;
+   return new Date().getFullYear() - age + 1;
 }
