@@ -1,9 +1,3 @@
 function solution(array, n) {
-    let count = 0;
-    array.forEach(x => {
-        if(x===n) {
-            count++;
-        }
-    })
-    return count
+    return array.filter(v => v === n).length
 }
