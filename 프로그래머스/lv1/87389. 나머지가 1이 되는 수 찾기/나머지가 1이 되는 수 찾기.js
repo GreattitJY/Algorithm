@@ -1,7 +1,7 @@
 function solution(n) {
-   for (i = 1; i < n ; i++) {
-       if (parseInt(n % i) === 1) {
-           return i
-   }
-}
+    let i = 1;
+    while (i) {
+        if (n % i === 1) return i
+        i++;
+    }
 }
